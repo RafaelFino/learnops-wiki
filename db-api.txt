@@ -1,0 +1,48 @@
+db-api/RDS 
+
+host exemplo: database-1.cnaan3jipci3.sa-east-1.rds.amazonaws.com
+user exemplo: postgres
+senha exemplo: learnops
+
+psql "host=database-1.cnaan3jipci3.sa-east-1.rds.amazonaws.com user=postgres"
+
+# Criar um RDS Postgres FreeTier (deve demorar alguns minutos)
+# Criar uma EC2
+# Liberar Security Group na VPC default para o Postgres (liberar a porta 5432 PostgresSQL para o Security Group do seu server EC2)
+
+# baixar no seu PC windows (optativo)
+https://www.beekeeperstudio.io/
+
+# prepara o EC2
+curl https://raw.githubusercontent.com/RafaelFino/learnops/master/scripts/rhel-prepare.sh | bash
+curl https://raw.githubusercontent.com/RafaelFino/learnops/master/scripts/get-golang.sh | bash 
+sudo yum install -y postgresql
+git clone https://github.com/RafaelFino/learnops.git
+
+# Verifica conexão com o banco de dados
+zsh
+cd learnops
+make
+# configura para acessar o seu RDS
+vim etc/db-config.json
+bin/db-exec etc/db-config.json etc/create-db.sql
+
+# criar o arquivo de log e deixa as permissões corretas
+sudo touch /var/log/db-api && sudo chmod 777 /var/log/db-api && sudo chown ec2-user:ec2-user /var/log/db-api
+
+# gruda no arquivo de log para ler
+tail -f /var/log/db-api &
+
+# sobe o serviço
+sudo bin/db-api etc/db-config.json :80 &
+
+# test local
+curl localhost/banks
+
+# abra a porta 80 no seu EC2 para termos acesso de fora da AWS
+acesse o end publico do seu EC2 no path /banks e no /banks-html
+
+# no EC2, execute esse comando, ele fará um update nos dados do banco
+echo "update banks set bankname = 'C6 - O banco mais legal de todos' where bankid = 336;" > etc/update.sql && bin/db-exec etc/db-config.json etc/update.sql
+
+# repita o teste pelo seu browser para ver que o banco 336 foi alterado conforme o script que executamos

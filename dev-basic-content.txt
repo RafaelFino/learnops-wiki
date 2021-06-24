@@ -1,0 +1,9 @@
+Como é a cara de um programa?
+O que é uma variável?
+Como eu digo pro computador o que ele deve fazer?
+	Condicionais: o famoso IF (Se e Senão)
+	Trechos de repetição: Se eu precisar fazer um monte de vezes as mesmas coisas, como isso ficaria? (iterações: loops, for, while, for each)
+
+O que é uma função? (tem gente que chama de método tbm, tanto faz)
+O que é uma classe? (ou módulo, ou biblioteca)
+

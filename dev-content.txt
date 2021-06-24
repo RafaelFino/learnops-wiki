@@ -1,0 +1,94 @@
+- Estrutura básica de um computador
+	- Processador
+		- Arquiteturas (x86|x64, Arm) RISC/CISC -> https://www.tecmundo.com.br/produto/119693-diferenca-processador-arm-um-x86.htm
+		- 8 Bits, 16 Bits -> Tamanho da palavra
+		- Relação entre clock e desempenho
+	-Memória RAM
+		- Alocação e gerenciamento
+	-IO
+		- Rede/Discos
+	- S.O.
+		- Pra q ele serve?
+		- Diferenças básicas entre Linux e Windows
+			- Alocação de memória
+			- Drivers
+
+- Dev
+	- Introdução
+		- Oq é um programa
+		- Baixo e alto nível
+		- Alocação de recursos e gerenciamento
+		- Tipos de programas: diferença entre compilado e interpretado
+			- Interpretado (scripts)
+			- JVM/Framework (bitcode)
+			- Compilado (binários)
+		- Debug?
+		- IDEs e Compiladores
+		- Linguagens
+	- Começando algo
+		- Estrutura básica de um programa
+		- Ideias básicas sobre lógica booleana
+		- Variáveis e tipos de dados
+			- troca de variáveis
+		- Operações matemáticas simples
+			- soma e subtração
+			- divisão e multiplicação
+		- Operações de formatação de texto simples
+		- Condicionais (IF/ELSE)
+		- Laços (loop, for, while)
+		- Funções
+			- Escopo de execução e de variáveis
+		- IO
+			- Escrevendo na tela (hello world)
+			- Lendo do teclado
+			- Lendo e escrevendo arquivos
+		- Vetores (arrays)
+	- Agora vai ficar sério
+		- Abordagem procedural
+		- Estrutura de classes e orientação a objetos
+		- Empacotando as coisas
+		- Lidando com datas
+		- Estruturas complexas
+			- Lista ligada
+			- Lista duplamente ligada
+			- Lista circular
+			- Pilha
+			- Dicionário (mapa)
+		- Inserindo e manipulando objetos
+		- Ordenando estruturas
+		
+		
+
+
+
+
+The book is on the table
+O livro está sobre a mesa
+
+The dklajdlaskjdlksaj is ont he table
+#1 "dklajdlaskjdlksaj" não é reconhecido
+#2 "ont" não é reconhecido
+#3 "he table" não faz sentido
+
+
+The book is ont he table
+#1 "ont" não é reconhecido
+#2 "he table" não faz sentido
+
+The book is on the table
+Ok!
+O livro está sobre a mesa
+
+
+
+Compilado
+>> Source + Compilador = binário
+binário -> execução
+
+BitCode/JIT/JVM/Framework
+>> Source + Compilador/Build = BitCode
+BitCode + Framework -> execução
+
+Interpretado
+Source + Interpratador -> execução
+

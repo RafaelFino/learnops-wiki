@@ -1,0 +1,6 @@
+freedb-1.cnaan3jipci3.sa-east-1.rds.amazonaws.com
+postgres
+Dhebe0JA4OdwODjG69Ekh4Cd24c48GVi
+
+wikijs
+y0vwxrX7HAvSR1CdjuIFdhVr7N0Xyez3

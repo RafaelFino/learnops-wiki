@@ -1,0 +1,6 @@
+= Ansible =
+
+== Podemos subir uma máquina e já deixa-la bonitona? (zsh, vim, fonts e exa) ==
+
+== Podemos subir um nginx ==
+

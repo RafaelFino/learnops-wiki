@@ -1,0 +1,15 @@
+= Learn Ops =
+
+Vamos tentar aprender algumas dessas coisas legais que tanto falam por aí?
+
+* AWS
+* Linux
+* Containers/Docker
+* K8s
+
+<blockquote>Tá afim? chega junto e vamos aprender tbm! =)
+</blockquote>
+Para começar a estudar com o que já temos: [[conteúdo/Linux/História|História]] Para começar a produzir conteúdo: [[conteúdo/etc/Markdown|Markdown]] Nosso [https://github.com/RafaelFino/learnops repo com alguns scripts e fontes] para esudar
+
+== Grupo de [https://chat.whatsapp.com/K8Sh783AzyaFPQwOt3rBoW whatsapp] ==
+

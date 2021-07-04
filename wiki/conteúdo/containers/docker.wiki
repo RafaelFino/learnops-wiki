@@ -1,0 +1,8 @@
+= Docker =
+
+== Como fazer uma imagem (dockerfile) ==
+
+== Como usar uma imagem pronta (dockerhub) ==
+
+== Como lidar com várias imagens ao mesmo tempo (docker-compose) ==
+

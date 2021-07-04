@@ -1,0 +1,11 @@
+= Pq o VI|VIM? =
+
+== Como entrar ==
+
+== Os modos ==
+
+* INSERT
+* APPEND
+* DELETE
+* VIEW ## Como sair ## Como sair e '''não salvar''' as alterações ## Como sair e '''salvar''' as alterações ## Como alterar um arquivo ## Como procurar uma palavra
+

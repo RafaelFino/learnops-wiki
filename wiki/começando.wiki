@@ -1,0 +1,11 @@
+= Para começar: =
+
+se vc usa windows, seria legal ter isso instalado ou usar [https://docs.microsoft.com/pt-br/windows/wsl/install-win10 WSL]
+
+* Instalem um console decente: [https://www.fosshub.com/ConEmu.html?dwl=ConEmuSetup.200604.exe Conemu]
+* Instalem o [https://www.cygwin.com/setup-x86_64.exe CYGWIN] para facilitar o uso de ferramentas de terminal
+* Façam uma conta na [https://sa-east-1.console.aws.amazon.com/console AWS]
+* Leiam esse artigo, sobre introdução ao [https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/ VIM]
+
+Se já fez isso tudo e está no Linux, leia mais sobre a [[conteúdo/Linux/História|História]] e como deixar seu [[conteúdo/Linux/terminal|terminal mais amigável]]
+

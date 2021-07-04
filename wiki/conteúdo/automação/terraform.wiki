@@ -1,0 +1,10 @@
+= Terraform =
+
+== Podemos tentar criar um EC2 ==
+
+== Podemos tentar montar um ELB ==
+
+== Podemos tentar montar um array de EC2 ==
+
+== Podemos montar uma estrutura completa, ELB, EC2 e disponibilizar para a internet nosso Hello World ==
+

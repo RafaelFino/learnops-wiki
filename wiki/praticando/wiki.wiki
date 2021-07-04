@@ -1,0 +1,4 @@
+= Publicando uma Wiki =
+
+Subir um Wiki, com Nginx, Banco de Dados e expôr na web usando tudo isso oq estamos estudando
+

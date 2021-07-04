@@ -1,0 +1,10 @@
+= Estrutura básicas de usuários e grupos =
+
+== Como ver e entender: Dono, Grupo e Outros ==
+
+=== Criar e ver um usuário ===
+
+=== Criar e ver um grupo ===
+
+== CHOWN ==
+

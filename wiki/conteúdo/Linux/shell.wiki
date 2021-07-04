@@ -1,0 +1,8 @@
+= Usando o Shell =
+
+Leiam esse ótimo [https://e-tinet.com/linux/programacao-shell-script/ artigo] para inciar ## Criando um script ## !#/usr/bash ? Que merda é essa? ## Hello World? sim… ## Fazendo um loop ## Vamos automatizar algo?
+
+= Fontes =
+
+[https://e-tinet.com/linux/programacao-shell-script/ e-tinet.com]
+

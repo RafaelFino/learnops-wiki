@@ -1,0 +1,18 @@
+= Operação básica: =
+
+== Estruturas (/var/log) ==
+
+== syslog ==
+
+== Ferramentas: ==
+
+=== tail ===
+
+=== grep ===
+
+=== awk ===
+
+=== jq ===
+
+== Lendo um arquivo/log ==
+

@@ -1,0 +1,7 @@
+= Markdown =
+
+Markdown é a ''linguagem'' usada para criar conteúdo em ''wikis'' coomo a nossa, leiam esses dois artigos para entenderem a melhor forma e alguns guias de como fazer isso:
+
+* [https://www.markdownguide.org/basic-syntax Básico]
+* [https://www.markdownguide.org/extended-syntax/ Avançado]
+
